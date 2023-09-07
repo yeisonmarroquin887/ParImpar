@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+   <script src="./assets/main.js"></script>
+   <h1 class="sena">My Sena</h1>
+   <div class="projectOne">
+      <h1 class="title">Hola aqui puedes consultar <br> si un numero es par o impar</h1>
+    <form id="from" onsubmit="event.preventDefault(), numero()">
+        <label for="numero">ingresa el numero</label>
+        <br>
+        <div class="inbnt">
+             <input type="number" id="num" required>
+     <button>enviar</button> 
+        </div>
+
+    </form>
+       <h1 >El numero es: <span id="result"></span></h1>
+   </div>
+  
+
+
+
+  </body>
+</html>
